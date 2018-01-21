@@ -1,0 +1,3 @@
+# Implementing-a-Python-Interpreter
+
+Project description: To translate Python parameters, including actual parameters and formal parameters. Also, my solution is able to implement recursion and simple while loop. Based on the previous project, mypy can handle if/else, nested functions and returns. I added several test cases to evaluate my interpreter. All of them pass if you execute command "./test.py", which compares the result that a Python 2.7.6 interpreter produces and my interpreter returns. I also handled the memory leak problem and avoided double free error. When you run command "valgrind ./run cases/main.py", it shows my solution is free of leaks. 
